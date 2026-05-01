@@ -1,5 +1,7 @@
 # 🐾 PetVibe - Landing Page Profissional
 
+Acesso: https://belmiroj.github.io/sctec-desafio/
+
 O **PetVibe** é uma landing page moderna, responsiva e funcional desenvolvida para um Pet Shop fictício. Este projeto foi estruturado para consolidar conhecimentos fundamentais de desenvolvimento web front-end, focando em semântica, design moderno e integração com serviços externos.
 
 > **Nota do Projeto:** Esta atividade faz parte do programa **Carreira Tech 2026 - Ciclo Onda 2**, servindo como um marco técnico para demonstrar o domínio em tecnologias web fundamentais.
