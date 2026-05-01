@@ -91,23 +91,23 @@
         <div class="container">
             <div class="contact-box">
                 <h2>Agende um Horário</h2>
-                <form id="contactForm" action="https://formspree.io/f/belmiro1991@gmail.com" method="POST">
-                <div class="input-group">
-                    <!-- O atributo 'name' é obrigatório para o envio do e-mail -->
-                    <input type="text" name="nome" id="nome" placeholder="Seu Nome" required>
-                    <input type="email" name="email" id="email" placeholder="E-mail" required>
-                </div>
-                
-                <select name="servico" id="servico">
-                    <option value="Banho e Tosa">Banho e Tosa</option>
-                    <option value="Consulta Veterinária">Consulta Veterinária</option>
-                    <option value="Hospedagem">Hospedagem</option>
-                </select>
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Substitua o valor abaixo pela sua chave se quiser mais segurança, 
+                        ou mantenha o email para teste direto -->
+                    <input type="hidden" name="access_key" value="belmiro1991@gmail.com">
+                    
+                    <div class="input-group">
+                        <input type="text" name="name" id="nome" placeholder="Seu Nome" required>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    
+                    <select name="service" id="servico">
+                        <option value="Banho e Tosa">Banho e Tosa</option>
+                        <option value="Consulta Veterinária">Consulta Veterinária</option>
+                        <option value="Hospedagem">Hospedagem</option>
+                    </select>
 
-                <!-- Campo oculto para evitar spam (opcional) -->
-                <input type="text" name="_gotcha" style="display:none">
-
-                <button type="submit" class="btn-submit" id="btnSubmit">Enviar Pedido</button>
+                    <button type="submit" class="btn-submit" id="btnSubmit">Enviar Pedido</button>
                 </form>
                 <p id="feedback" class="status-msg hidden"></p>
             </div>
