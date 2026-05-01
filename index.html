@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetVibe | Cuidado Premium para seu Pet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Pet<span>Vibe</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contato" class="btn-nav">Agendar Agora</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Seu melhor amigo em <span>boas mãos.</span></h1>
+                <p>Oferecemos banho, tosa e cuidados veterinários com tecnologia de ponta e muito carinho.</p>
+                <div class="hero-btns">
+                    <a href="#servicos" class="btn-primary">Ver Serviços</a>
+                    <a href="#sobre" class="btn-secondary">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&q=80&w=600" alt="Cachorro Feliz">
+                    <div class="shape-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container about-flex">
+            <div class="about-content">
+                <h2>Paixão por Animais</h2>
+                <p>A PetVibe nasceu para criar um ambiente onde os pets se sintam em casa. Nossa equipe é composta por especialistas certificados que amam o que fazem.</p>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>8k+</h3>
+                        <p>Clientes</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>12</h3>
+                        <p>Prêmios</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-images">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=400" alt="Banho">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=400" alt="Banho">
+                    <h3>Banho e Tosa</h3>
+                    <p>Produtos hipoalergênicos e secagem silenciosa.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?q=80&w=400" alt="Saúde">
+                    <h3>Saúde</h3>
+                    <p>Consultas preventivas e vacinação em dia.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?q=80&w=400" alt="Hotel">
+                    <h3>Hospedagem</h3>
+                    <p>Monitoramento 24h e muita diversão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Agende um Horário</h2>
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="nome" placeholder="Seu Nome" required>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    <select id="servico">
+                        <option>Banho e Tosa</option>
+                        <option>Consulta Veterinária</option>
+                        <option>Hospedagem</option>
+                    </select>
+                    <button type="submit" class="btn-submit">Enviar Pedido</button>
+                </form>
+                <p id="feedback" class="hidden"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PetVibe Shop. São José, SC.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
